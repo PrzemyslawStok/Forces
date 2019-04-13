@@ -30,13 +30,15 @@ public class forces extends Application {
         mSpring.setFitWidth(100);
         mSpring.setFitHeight(mBaseLength);
 
-        mSpring.setTranslateX(50);
+        mSpring.setTranslateX(70);
 
         mRectangle = new Rectangle();
 
         mRectangle.setFill(Color.BISQUE);
         mRectangle.setWidth(200);
         mRectangle.setHeight(150);
+
+        mRectangle.setTranslateX(20);
 
         mRectangle.setTranslateY(mSpring.getFitHeight());
     }
